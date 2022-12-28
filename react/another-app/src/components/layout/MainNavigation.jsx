@@ -9,7 +9,7 @@ function MainNavigation() {
 
   return (
     <header className={classes.header}>
-      <div>React Meetups</div>
+      <div>React Meeetups</div>
       <nav>
         <ul>
           <li>
