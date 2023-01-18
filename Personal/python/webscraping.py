@@ -9,6 +9,7 @@ job_count = soup.find('span', class_ = "count").text.replace(' ', '')
 print(job_count)
 
 companies = set()
+
 for i in range(2,10):
     web_page = requests.get(f'https://www.reed.co.uk/jobs/software-jobs-in-london?pageno={i}').text
     soup = BeautifulSoup(web_page, 'lxml')
